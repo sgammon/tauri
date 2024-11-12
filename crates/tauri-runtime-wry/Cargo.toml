@@ -64,6 +64,7 @@ jni = "0.21"
 
 [features]
 devtools = ["wry/devtools", "tauri-runtime/devtools"]
+push-notifications = ["tao/push-notifications"]
 macos-private-api = [
   "wry/fullscreen",
   "wry/transparent",

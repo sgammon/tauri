@@ -79,6 +79,9 @@ pub use tauri_macros::{command, generate_handler};
 use tauri_utils::assets::AssetsIter;
 pub use url::Url;
 
+#[cfg(feature = "push-notifications")]
+pub use app::PushToken;
+
 pub(crate) mod app;
 pub mod async_runtime;
 mod error;
